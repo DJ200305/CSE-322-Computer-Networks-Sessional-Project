@@ -3,7 +3,7 @@
 ## FQRTT: Fuzzy-Adaptive RTT Estimation for Wireless Networks
 
 ### What This Is
-Reproduction of QRTT (Islam & Raghunathan) with a proposed modification.
+Reproduction of QRTT ([Islam & Raghunathan, 2012](https://doi.org/10.1109/LES.2012.2229961)) with a proposed modification.
 QRTT replaces the classical Jacobson RTT estimator with Q-learning, 
 modeling transmission state (success/failure). We identified that its 
 learning rate (α) and discount factor (γ) were hardcoded per topology, 
@@ -26,7 +26,9 @@ adds noise rather than signal in that regime.
 
 ### Simulated Across 15+ Configurations
 Varied: nodes (20–100), flows (10–50), packets/sec (100–500), speed (5–25 m/s)
+
 Topologies: Wired, 802.15.4 mobile wireless
+
 Simulator: ns-3
 
 ## Repository Description
